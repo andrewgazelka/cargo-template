@@ -6,3 +6,31 @@ authors = ["{{authors}}"]
 readme = "README.md"
 
 [dependencies]
+
+
+[lints.rust]
+unsafe_code = "forbid"
+warnings = "deny"
+
+[lints.clippy]
+cargo_common_metadata = "allow"
+single_char_lifetime_names = "allow"
+items_after_statements = "allow"
+multiple_crate_versions = "allow"
+module_name_repetitions = "allow"
+missing_const_for_fn = "allow"
+single_match_else = "allow"
+
+# deny cargo lints https://rust-lang.github.io/rust-clippy/master/#/?groups=cargo
+multiple_crate_versions = "deny"
+negative_feature_names = "deny"
+redundant_feature_names = "deny"
+wildcard_dependencies = "deny"
+
+complexity = "deny"
+nursery = "deny"
+perf = "deny"
+style = "deny"
+suspicious = "deny"
+pedantic = "deny"
+unwrap_used = "deny"
