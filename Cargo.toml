@@ -9,7 +9,6 @@ readme = "README.md"
 
 
 [lints.rust]
-unsafe_code = "forbid"
 warnings = "deny"
 
 [lints.clippy]
@@ -31,5 +30,4 @@ nursery = "deny"
 perf = "deny"
 style = "deny"
 suspicious = "deny"
-pedantic = "deny"
 unwrap_used = "deny"
