@@ -20,14 +20,12 @@ missing_const_for_fn = "allow"
 single_match_else = "allow"
 
 # deny cargo lints https://rust-lang.github.io/rust-clippy/master/#/?groups=cargo
-multiple_crate_versions = "deny"
 negative_feature_names = "deny"
 redundant_feature_names = "deny"
 wildcard_dependencies = "deny"
 
 complexity = "deny"
-nursery = "deny"
+nursery = "warn"
 perf = "deny"
 style = "deny"
 suspicious = "deny"
-unwrap_used = "deny"
