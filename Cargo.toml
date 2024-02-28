@@ -19,16 +19,27 @@ negative_feature_names = "deny"
 redundant_feature_names = "deny"
 wildcard_dependencies = "deny"
 
+restriction = { level = "deny", priority = -1 }
+missing_docs_in_private_items = "allow"
+question_mark_used = "allow"
+print_stdout = "allow"
+implicit_return = "allow"
+shadow_reuse = "allow"
+absolute_paths = "allow"
+use_debug = "allow"
+unwrap_used = "allow"
+
 complexity = "deny"
 
-nursery = "warn"
+nursery = "deny"
 
-pedantic = "warn"
+pedantic = { level = "deny", priority = -1 }
+uninlined_format_args = "allow"
 
 perf = "deny"
 
 style = "deny"
 
-suspicious = "deny"
-
+suspicious = { level = "deny", priority = -1 }
+blanket_clippy_restriction_lints = "allow"
 
