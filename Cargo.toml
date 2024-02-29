@@ -28,6 +28,7 @@ shadow_reuse = "allow"
 absolute_paths = "allow"
 use_debug = "allow"
 unwrap_used = "allow"
+std_instead_of_alloc = "allow"
 
 complexity = "deny"
 
