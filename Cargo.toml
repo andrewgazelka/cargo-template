@@ -39,6 +39,7 @@ float_arithmetic = "allow"
 single_call_fn = "allow"
 missing_inline_in_public_items = "allow"
 exhaustive_structs = "allow"
+pub_use = "allow"
 
 complexity = "deny"
 
