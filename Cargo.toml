@@ -28,14 +28,26 @@ shadow_reuse = "allow"
 absolute_paths = "allow"
 use_debug = "allow"
 unwrap_used = "allow"
-std_instead_of_alloc = "allow"
+std_instead_of_alloc = "allow" # consider denying
+default_numeric_fallback = "allow"
+as_conversions = "allow"
+arithmetic_side_effects = "allow"
+shadow_unrelated = "allow"
+unseparated_literal_suffix = "allow"
+else_if_without_else = "allow"
+float_arithmetic = "allow"
+single_call_fn = "allow"
 
 complexity = "deny"
 
 nursery = "deny"
 
 pedantic = { level = "deny", priority = -1 }
-uninlined_format_args = "allow"
+uninlined_format_args = "allow" # consider denying; this is allowed because Copilot often generates code that triggers this lint
+needless_pass_by_value = "allow" # consider denying
+cast_lossless = "allow"
+cast_possible_truncation = "allow" # consider denying
+cast_precision_loss = "allow" # consider denying
 
 perf = "deny"
 
@@ -43,4 +55,3 @@ style = "deny"
 
 suspicious = { level = "deny", priority = -1 }
 blanket_clippy_restriction_lints = "allow"
-
