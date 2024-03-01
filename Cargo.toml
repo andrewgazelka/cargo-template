@@ -37,6 +37,8 @@ unseparated_literal_suffix = "allow"
 else_if_without_else = "allow"
 float_arithmetic = "allow"
 single_call_fn = "allow"
+missing_inline_in_public_items = "allow"
+exhaustive_structs = "allow"
 
 complexity = "deny"
 
