@@ -40,6 +40,9 @@ single_call_fn = "allow"
 missing_inline_in_public_items = "allow"
 exhaustive_structs = "allow"
 pub_use = "allow"
+let_underscore_untyped = "allow"
+infinite_loop = "allow"
+single_char_lifetime_names = "allow"
 
 complexity = "deny"
 
