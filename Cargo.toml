@@ -46,7 +46,8 @@ single_char_lifetime_names = "allow"
 
 complexity = "deny"
 
-nursery = "deny"
+nursery = { level = "deny", priority = -1 }
+future_not_send = "allow"
 
 pedantic = { level = "deny", priority = -1 }
 uninlined_format_args = "allow" # consider denying; this is allowed because Copilot often generates code that triggers this lint
