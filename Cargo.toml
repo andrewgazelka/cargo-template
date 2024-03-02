@@ -56,6 +56,7 @@ cast_lossless = "allow"
 cast_possible_truncation = "allow" # consider denying
 cast_precision_loss = "allow" # consider denying
 missing_errors_doc = "allow" # consider denying
+struct_excessive_bools = "allow"
 
 perf = "deny"
 
