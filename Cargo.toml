@@ -46,6 +46,7 @@ std_instead_of_core = "allow"
 let_underscore_must_use = "allow"
 pattern_type_mismatch = "allow"
 print_stderr = "allow"
+missing_assert_message = "allow"
 
 complexity = { level = "deny", priority = -1 }
 
