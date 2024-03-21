@@ -48,6 +48,8 @@ pattern_type_mismatch = "allow"
 print_stderr = "allow"
 missing_assert_message = "allow"
 shadow_same = "allow"
+mod_module_files = "deny"
+self_named_module_files = "allow"
 
 complexity = { level = "deny", priority = -1 }
 
