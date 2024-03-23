@@ -52,6 +52,8 @@ mod_module_files = "deny"
 self_named_module_files = "allow"
 items_after_statements = "allow"
 integer_division = "allow"
+missing_trait_methods = "allow"
+exhaustive_enums = "allow"
 
 complexity = { level = "deny", priority = -1 }
 
