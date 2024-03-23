@@ -50,6 +50,8 @@ missing_assert_message = "allow"
 shadow_same = "allow"
 mod_module_files = "deny"
 self_named_module_files = "allow"
+items_after_statements = "allow"
+integer_division = "allow"
 
 complexity = { level = "deny", priority = -1 }
 
