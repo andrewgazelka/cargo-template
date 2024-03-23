@@ -31,7 +31,6 @@ default_numeric_fallback = "allow"
 as_conversions = "allow"
 arithmetic_side_effects = "allow"
 shadow_unrelated = "allow"
-unseparated_literal_suffix = "allow"
 else_if_without_else = "allow"
 float_arithmetic = "allow"
 single_call_fn = "allow"
@@ -55,6 +54,8 @@ integer_division = "allow"
 missing_trait_methods = "allow"
 exhaustive_enums = "allow"
 impl_trait_in_params = "allow"
+unseparated_literal_suffix = "deny"
+separated_literal_suffix = "allow"
 
 complexity = { level = "deny", priority = -1 }
 
