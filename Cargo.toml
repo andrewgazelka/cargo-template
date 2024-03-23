@@ -54,8 +54,8 @@ integer_division = "allow"
 missing_trait_methods = "allow"
 exhaustive_enums = "allow"
 impl_trait_in_params = "allow"
-unseparated_literal_suffix = "deny"
-separated_literal_suffix = "allow"
+unseparated_literal_suffix = "allow"
+separated_literal_suffix = "deny"
 
 complexity = { level = "deny", priority = -1 }
 
