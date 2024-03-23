@@ -54,6 +54,7 @@ items_after_statements = "allow"
 integer_division = "allow"
 missing_trait_methods = "allow"
 exhaustive_enums = "allow"
+impl_trait_in_params = "allow"
 
 complexity = { level = "deny", priority = -1 }
 
