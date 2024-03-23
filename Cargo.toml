@@ -59,6 +59,7 @@ separated_literal_suffix = "allow"
 integer_division_remainder_used = "allow"
 
 complexity = { level = "deny", priority = -1 }
+type_complexity = "allow"
 
 nursery = { level = "deny", priority = -1 }
 future_not_send = "allow"
