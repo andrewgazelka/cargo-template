@@ -57,6 +57,7 @@ impl_trait_in_params = "allow"
 unseparated_literal_suffix = "deny"
 separated_literal_suffix = "allow"
 integer_division_remainder_used = "allow"
+str_to_string = "allow"
 
 complexity = { level = "deny", priority = -1 }
 type_complexity = "allow"
