@@ -7,12 +7,13 @@ readme = "README.md"
 
 [dependencies]
 
+[lints.rust]
+rust_2018_idioms = {level = "deny", priority = -1}
+
 [lints.clippy]
-complexity = "deny"
-
+complexity = {level = "deny", priority = -1}
 nursery = { level = "deny", priority = -1 }
-
-pedantic = "deny"
-perf = "deny"
-style = "deny"
-suspicious = "deny"
+pedantic = {level = "deny", priority = -1}
+perf = {level = "deny", priority = -1}
+style = {level = "deny", priority = -1}
+suspicious = {level = "deny", priority = -1}
